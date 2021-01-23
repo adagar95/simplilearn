@@ -1,0 +1,33 @@
+Assisted Practice: 3.7 File Handling Mechanisms
+This section will guide you to: 
+●	Write a program in Java to demonstrate exception handling
+●	Use Eclipse (the popular text editor for Java programs) 
+●	Push code to Git
+
+This lab has six sub-sections, namely:
+3.7.1	Creating a new project in Eclipse
+3.7.2	Writing a program in Java to create a file
+3.7.3	Writing a program in Java to read a file
+3.7.4	Writing a program in Java to update a file
+3.7.5	Writing a program in Java to delete a file
+3.7.6	Pushing the code to your GitHub repositories
+
+Step 3.7.1: Creating a new project in Eclipse
+●	Open Eclipse
+●	Go to File -> New -> Project -> Java Project -> Next.
+●	Type in any project name and click on “Finish.”
+●	Select your project and go to File -> New -> Class.
+●	Enter CreateNewFile in any class name, check the checkbox “public static void main(String[] args)”., and click on “Finish.”
+
+Step 3.7.2: Writing a program in Java to create a file
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.Arrays;
+import java.util.List;
